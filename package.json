@@ -1,0 +1,26 @@
+{
+  "name": "graphql_contacts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./.build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "typescript": "^5.0.2"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@apollo/server": "^4.5.0",
+    "@apollo/subgraph": "^2.4.0",
+    "apollo-datasource-mongodb": "^0.5.4",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "mongodb": "^5.1.0"
+  }
+}
